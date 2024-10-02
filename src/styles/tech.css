@@ -1,0 +1,96 @@
+.actions li {
+    display: inline;
+    list-style-type: none;
+    padding-right: 15px;
+    font-size: 1.2em;
+}
+
+.tech {
+    color: black;
+    /*margin-bottom: 10px;*/
+    padding: 10px;
+    font-size: 2em;
+}
+
+.hide {
+    display: none;
+}
+
+.medium {
+    margin: 5px 15px 5px 15px;
+    font-size: 2.5rem;
+    line-height: 2rem;
+    transition: transform 200ms ease-in;
+}
+
+.tech_project_icons {
+    margin: 5px 15px 5px 15px;
+    font-size: 8.5rem;
+    line-height: 2rem;
+    transition: transform 200ms ease-in;
+}
+
+.medium:hover {
+    transform: scale(1.2);
+}
+
+.mySpan:hover+.hide {
+    display: block;
+    color: red;
+}
+
+.TechCard {
+    margin: auto;
+      margin-bottom: 2rem;
+    text-align: center;
+    overflow: hidden;
+    box-shadow: 0 0px 0px #e1e5ee;
+    border-radius: 0.2rem;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+    transition: transform 200ms ease-in;
+}
+
+.TechCard:hover {
+    transform: scale(1.0);
+}
+
+.p-3 {
+    padding: 1rem !important;
+}
+
+.mb-2 {
+    margin-bottom: 1rem !important;
+}
+.techStackImage{
+  height: 220px;
+}
+
+.techicons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.techicons.right {
+    justify-content: flex-start;
+}
+
+.techicons.left {
+    justify-content: flex-end;
+}
+
+.techsvg {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.techsvg.right {
+    justify-content: flex-start;
+}
+
+.techsvg.left {
+    justify-content: flex-end;
+}
