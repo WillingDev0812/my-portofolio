@@ -36,7 +36,7 @@ const Tech = () => {
                 <p className="tech">FRONTEND </p>
                 <div className="container">
                   <div className="row">
-                    <div className="col-lg-5 techsvg left">
+                    <div className="col-lg-5  left">
                       <img
                         className="techStackImage"
                         src={frontendImg}
@@ -59,7 +59,7 @@ const Tech = () => {
                     <div className="col-lg-7 techicons left">
                       {backend.map(TechCardData)}
                     </div>
-                    <div className="col-lg-5 techsvg right">
+                    <div className="col-lg-5  right">
                       <img
                         className="techStackImage"
                         src={backendImg}
@@ -76,7 +76,7 @@ const Tech = () => {
                 <p className="tech">DATABASES</p>
                 <div className="container">
                   <div className="row">
-                    <div className="col-lg-6 techsvg left">
+                    <div className="col-lg-6  left">
                       <img
                         className="techStackImage"
                         src={databaseImg}
@@ -99,7 +99,7 @@ const Tech = () => {
                     <div className="col-lg-6 techicons left">
                       {mobile.map(TechCardData)}
                     </div>
-                    <div className="col-lg-6 techsvg right">
+                    <div className="col-lg-6  right">
                       <img
                         className="techStackImage"
                         src={mobileImg}
@@ -119,7 +119,7 @@ const Tech = () => {
                     <div className="col-lg-6 techicons left">
                       {languages.map(TechCardData)}
                     </div>
-                    <div className="col-lg-6 techsvg right">
+                    <div className="col-lg-6  right">
                       <img
                         className="techStackImage"
                         src={languagesImg}
@@ -136,7 +136,7 @@ const Tech = () => {
                 <p className="tech">Cloud</p>
                 <div className="container">
                   <div className="row">
-                    <div className="col-lg-6 techsvg left">
+                    <div className="col-lg-6  left">
                       <img
                         className="techStackImage"
                         src={toolsImg}
